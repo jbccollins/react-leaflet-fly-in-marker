@@ -1,7 +1,7 @@
 {
-  "name": "create-react-library",
-  "version": "2.0.0",
-  "description": "React NPM library starter kit based on Facebook's create react app",
+  "name": "react-leaflet-fly-in-marker",
+  "version": "1.0.0",
+  "description": "Leaflet markers that rain from the heavens!",
   "main": "build/index.js",
   "scripts": {
     "start": "node scripts/start.js",
@@ -11,15 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DimiMikadze/create-react-library.git"
+    "url": "git+https://github.com/jbccollins/react-leaflet-fly-in-marker.git"
   },
-  "author": "Dimi Mikadze <dimi@udilia.com>",
+  "author": "James Collins <github.com/jbccollins>",
   "bugs": {
-    "url": "https://github.com/DimiMikadze/create-react-library/issues"
+    "url": "https://github.com/jbccollins/react-leaflet-fly-in-marker/issues"
   },
-  "homepage": "https://github.com/DimiMikadze/create-react-library#readme",
+  "homepage": "https://github.com/jbccollins/react-leaflet-fly-in-marker#readme",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "leaflet": "^1.4.0",
+    "react-leaflet": "^2.2.1",
+    "react-spring": "^8.0.19"
+  },
   "devDependencies": {
     "@babel/core": "7.2.2",
     "@svgr/webpack": "4.1.0",
